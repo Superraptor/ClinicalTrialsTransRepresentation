@@ -1,0 +1,9 @@
+Cluster ID,Descriptive Cluster Label,Study Count (N),Share (%),Top c-TF-IDF Distinctive Terms,Mean Year,NIH Funding (%),Formal Capture (%),Exemplar NCT ID
+C0,Hiv & Prep & Intervention,375,14.25%,"hiv, prep, intervention, men, study",2019.8,3.2%,70.7%,NCT07584122
+C1,Patients & Kidney & Study,342,12.99%,"patients, kidney, study, renal, blood",2020.1,0.9%,31.6%,NCT02053675
+C2,Urinary & Incontinence & Urinary Incontinence,566,21.5%,"urinary, incontinence, urinary incontinence, pelvic, floor",2021.9,0.0%,92.9%,NCT06606613
+C3,Gender & Transgender & Study,290,11.02%,"gender, transgender, study, hormone, patients",2020.8,2.4%,79.7%,NCT00196001
+C4,Cancer & Prostate & Study,251,9.54%,"cancer, prostate, study, patients, urinary",2021.4,2.4%,79.7%,NCT07225114
+C5,Study & Participants & Exercise,314,11.93%,"study, participants, exercise, body, blood",2021.5,1.0%,74.5%,NCT06893913
+C6,Pain & Surgery & Study,218,8.28%,"pain, surgery, study, patients, hypospadias",2021.4,0.9%,81.7%,NCT07035275
+C7,Health & Intervention & Study,276,10.49%,"health, intervention, study, sexual, women",2021.9,2.2%,69.9%,NCT03534167

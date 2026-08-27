@@ -1,0 +1,59 @@
+# MeSH Headings and Historical Controlled Vocabularies in ClinicalTrials.gov
+
+mesh_descriptors:
+  - descriptor_id: "D063106"
+    descriptor_name: "Transgender Persons"
+    introduced_year: 2016
+    tree_numbers: ["M01.898", "M01.975.800"]
+    note: "Primary contemporary MeSH heading for TGD individuals."
+
+  - descriptor_id: "D014164"
+    descriptor_name: "Transsexualism"
+    introduced_year: 1978
+    tree_numbers: ["F03.625.545.900", "F03.625.687.900"]
+    note: "Historical psychiatric/clinical descriptor."
+
+  - descriptor_id: "D000068376"
+    descriptor_name: "Gender Dysphoria"
+    introduced_year: 2016
+    tree_numbers: ["F03.625.545", "F03.625.687"]
+    note: "DSM-5 diagnostic MeSH classification."
+
+  - descriptor_id: "D000072339"
+    descriptor_name: "Gender Identity"
+    introduced_year: 1974
+    tree_numbers: ["F01.752.747.387"]
+    note: "Broad identity concept; needs examination for specificity."
+
+  - descriptor_id: "D000072336"
+    descriptor_name: "Gender Incongruence"
+    introduced_year: 2019
+    tree_numbers: ["F03.625.545.450"]
+    note: "ICD-11 aligned condition."
+
+  - descriptor_id: "D000076263"
+    descriptor_name: "Sexual and Gender Minorities"
+    introduced_year: 2018
+    tree_numbers: ["M01.898", "M01.975"]
+    note: "Umbrella MeSH concept encompassing LGB and TGD populations."
+
+  - descriptor_id: "D000091382"
+    descriptor_name: "Gender-Affirming Care"
+    introduced_year: 2023
+    tree_numbers: ["E02.390"]
+    note: "Recent procedural/clinical MeSH heading."
+
+  - descriptor_id: "D012739"
+    descriptor_name: "Gonadal Dysgenesis"
+    introduced_year: 1966
+    tree_numbers: ["C12.050.351.500", "C19.391.385"]
+    note: "Intersex / DSD condition historically co-mingled in indexing."
+
+# Broad related MeSH terms to check for co-occurrence / conflation
+conflation_mesh_terms:
+  - descriptor_id: "D006716"
+    descriptor_name: "Homosexuality, Male"
+  - descriptor_id: "D015658"
+    descriptor_name: "HIV Infections"
+  - descriptor_id: "D000086382"
+    descriptor_name: "HIV Pre-Exposure Prophylaxis"

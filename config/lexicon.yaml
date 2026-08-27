@@ -1,0 +1,130 @@
+# Comprehensive Lexicon for Transgender and Gender-Diverse (TGD) Representation Analysis
+
+# 1. Broad query terms used for API query sweep and full-text candidate retrieval
+api_search_queries:
+  - "transgender"
+  - "transsexual"
+  - "transsexualism"
+  - "gender dysphoria"
+  - "gender incongruence"
+  - "gender identity disorder"
+  - "gender affirming"
+  - "gender-affirming"
+  - "gender affirmation"
+  - "gender nonconforming"
+  - "gender non-conforming"
+  - "gender diverse"
+  - "gender diversity"
+  - "gender queer"
+  - "genderqueer"
+  - "nonbinary"
+  - "non-binary"
+  - "transmasculine"
+  - "transfeminine"
+  - "trans woman"
+  - "trans women"
+  - "trans man"
+  - "trans men"
+  - "female to male"
+  - "male to female"
+  - "FTM"
+  - "MTF"
+  - "cross-sex hormone"
+  - "puberty blocker"
+  - "pubertal suppression"
+  - "chest masculinization"
+  - "vaginoplasty"
+  - "phalloplasty"
+  - "metoidioplasty"
+  - "facial feminization"
+
+# 2. Detailed regex patterns categorized by historical and epistemic taxonomy
+categories:
+  historical_psychiatric:
+    description: "Historical clinical and psychiatric categorizations (DSM-III/IV / ICD-9/10 era)"
+    patterns:
+      - '(?i)\btranssexual(?:ism|ity)?\b'
+      - '(?i)\bgender\s+identity\s+disorder(?:\s+of\s+childhood|\s+of\s+adolescence)?\b'
+      - '(?i)\btransvestic\s+(?:fetishism|disorder)\b'
+      - '(?i)\bgender\s+role\s+disorder\b'
+
+  diagnostic_contemporary:
+    description: "Contemporary diagnostic categories (DSM-5 / ICD-11 era)"
+    patterns:
+      - '(?i)\bgender\s+dysphori(?:a|c)\b'
+      - '(?i)\bgender\s+incongruen(?:ce|t)\b'
+      - '(?i)\bgender\s+variant\b'
+
+  identity_affirmative:
+    description: "Contemporary identity and community-grounded terminology"
+    patterns:
+      - '(?i)\btransgender(?:ed)?\b'
+      - '(?i)\btrans\s*(?:woman|women|female|females|man|men|males?|people|person|persons|individuals?|population|youth|adolescents?|adults?|patients?)\b'
+      - '(?i)\btrans feminine\b|\btransfeminine\b'
+      - '(?i)\btrans masculine\b|\btransmasculine\b'
+      - '(?i)\bnon[\s-]?binary\b'
+      - '(?i)\bgender[\s-]?queer\b'
+      - '(?i)\bgender[\s-]?diverse\b|\bgender\s+diversity\b'
+      - '(?i)\bgender[\s-]?expansive\b'
+      - '(?i)\bgender[\s-]?fluid(?:ity)?\b'
+      - '(?i)\bgender[\s-]?non[\s-]?conforming\b|\bTGNC\b'
+      - '(?i)\btwo[\s-]?spirit\b'
+      - '(?i)\bTGD\b'
+
+  directional_demographic:
+    description: "Directional transition markers and assigned sex at birth descriptors"
+    patterns:
+      - '(?i)\bfemale[\s-]to[\s-]male\b|\bFTM\b'
+      - '(?i)\bmale[\s-]to[\s-]female\b|\bMTF\b'
+      - '(?i)\bassigned\s+female\s+at\s+birth\b|\bAFAB\b'
+      - '(?i)\bassigned\s+male\s+at\s+birth\b|\bAMAB\b'
+      - '(?i)\bnatal\s+(?:female|male|women|men|sex)\b'
+      - '(?i)\bbirth[\s-]assigned\s+(?:sex|female|male)\b'
+
+  medical_affirming:
+    description: "Gender-affirming medical, hormonal, and surgical interventions"
+    patterns:
+      - '(?i)\bgender[\s-]?affirm(?:ing|ed|ation)\b'
+      - '(?i)\bcross[\s-]?sex\s+hormone(?:s|\s+therapy)?\b|\bGAHT\b|\bGAH\b'
+      - '(?i)\bfeminizing\s+hormone\s+therapy\b'
+      - '(?i)\bmasculinizing\s+hormone\s+therapy\b'
+      - '(?i)\bpubert(?:y|al)\s+(?:suppression|blockers?|blocking)\b'
+      - '(?i)\bgender[\s-]confirming\s+surg(?:ery|eries|ical)\b'
+      - '(?i)\bgender[\s-]affirm(?:ing|ation)\s+surg(?:ery|eries|ical)\b|\bGAS\b'
+      - '(?i)\bsex\s+reassignment\s+surg(?:ery|eries|ical)\b|\bSRS\b'
+      - '(?i)\b(?:top|bottom)\s+surgery\b'
+      - '(?i)\bchest\s+(?:masculinization|reconstruction|feminization)\b'
+      - '(?i)\bvaginoplast(?:y|ies)\b'
+      - '(?i)\bphalloplast(?:y|ies)\b'
+      - '(?i)\bmetoidioplast(?:y|ies)\b'
+      - '(?i)\bfacial\s+feminization\s+surg(?:ery|ical)?\b|\bFFS\b'
+      - '(?i)\bvoice\s+(?:feminization|masculinization|therapy\s+for\s+transgender)\b'
+
+# 3. Contextual disambiguation rules (e.g. acronyms that can be false positives)
+acronym_guards:
+  FTM:
+    require_contexts: ['gender', 'trans', 'male', 'female', 'hormone', 'testosterone', 'masculin', 'surgery', 'sex']
+    exclude_contexts: ['field test mode', 'first time mother', 'fractional shortening', 'fetal test']
+  MTF:
+    require_contexts: ['gender', 'trans', 'female', 'male', 'hormone', 'estrogen', 'feminiz', 'surgery', 'sex']
+    exclude_contexts: ['modulation transfer function', 'materials transfer', 'multitask framework']
+  SRS:
+    require_contexts: ['gender', 'trans', 'reassignment', 'surgery', 'sex', 'affirm']
+    exclude_contexts: ['stereotactic radiosurgery', 'slow release', 'simple random sampling', 'stimulus response compatibility']
+  TGD:
+    require_contexts: ['gender', 'trans', 'diverse', 'identity', 'minority', 'health']
+    exclude_contexts: ['triglyceride', 'thermal gravity']
+
+# 4. Explicit Exclusion Patterns (to strip non-TGD biomedical matches)
+false_positive_exclusions:
+  - '(?i)\btranscription(?:\s+factor)?\b'
+  - '(?i)\btransduction\b'
+  - '(?i)\btransfection\b'
+  - '(?i)\btransmission\b'
+  - '(?i)\btransmembrane\b'
+  - '(?i)\btransplantation\b'
+  - '(?i)\btransient\b'
+  - '(?i)\btranslocator\b'
+  - '(?i)\btransesophageal\b'
+  - '(?i)\btranscranial\b'
+  - '(?i)\btranscutaneous\b'

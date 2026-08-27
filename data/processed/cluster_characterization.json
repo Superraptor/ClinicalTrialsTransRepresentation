@@ -1,0 +1,866 @@
+{
+  "0": {
+    "cluster_id": 0,
+    "cluster_label": "Hiv & Prep & Intervention",
+    "study_count": 375,
+    "proportion_pct": 14.25,
+    "top_keywords": [
+      "hiv",
+      "prep",
+      "intervention",
+      "men",
+      "study"
+    ],
+    "top_c_tf_idf_terms": [
+      [
+        "hiv",
+        0.08396306594340822
+      ],
+      [
+        "prep",
+        0.04796907786876568
+      ],
+      [
+        "intervention",
+        0.03212824725573138
+      ],
+      [
+        "men",
+        0.03031794669251158
+      ],
+      [
+        "study",
+        0.029634757755358804
+      ],
+      [
+        "testing",
+        0.026476451744786782
+      ],
+      [
+        "participants",
+        0.025349166299455557
+      ],
+      [
+        "prevention",
+        0.024060671430931484
+      ],
+      [
+        "risk",
+        0.023082012403420116
+      ],
+      [
+        "sex",
+        0.0221588653749293
+      ],
+      [
+        "msm",
+        0.021629839894226413
+      ],
+      [
+        "women",
+        0.02151654975387739
+      ],
+      [
+        "health",
+        0.02130856855942498
+      ],
+      [
+        "care",
+        0.01935020419703193
+      ],
+      [
+        "transgender",
+        0.019227095699719633
+      ]
+    ],
+    "representative_studies": [
+      {
+        "nct_id": "NCT07584122",
+        "title": "Improving Access to PrEP (HIV Prevention Medication) for People in Underserved Areas of Rio de Janeiro",
+        "year": 2026,
+        "lead_sponsor": "Oswaldo Cruz Foundation",
+        "study_type": "INTERVENTIONAL"
+      },
+      {
+        "nct_id": "NCT06353737",
+        "title": "Looking for Asymptomatic Mpox in a Population at High Risk",
+        "year": 2024,
+        "lead_sponsor": "Unity Health Toronto",
+        "study_type": "OBSERVATIONAL"
+      },
+      {
+        "nct_id": "NCT05281393",
+        "title": "PrEP2Prevent An Online PrEP Navigation and Activation Intervention",
+        "year": 2022,
+        "lead_sponsor": "Children's Hospital Los Angeles",
+        "study_type": "INTERVENTIONAL"
+      }
+    ],
+    "temporal_profile": {
+      "mean_year": 2019.8,
+      "min_year": 2005,
+      "max_year": 2026
+    },
+    "funding_profile": {
+      "nih_funding_pct": 3.2,
+      "industry_funding_pct": 14.1
+    },
+    "formal_capture_pct": 70.7
+  },
+  "1": {
+    "cluster_id": 1,
+    "cluster_label": "Patients & Kidney & Study",
+    "study_count": 342,
+    "proportion_pct": 12.99,
+    "top_keywords": [
+      "patients",
+      "kidney",
+      "study",
+      "renal",
+      "blood"
+    ],
+    "top_c_tf_idf_terms": [
+      [
+        "patients",
+        0.040777726337630715
+      ],
+      [
+        "kidney",
+        0.02987642101564497
+      ],
+      [
+        "study",
+        0.028120108698873842
+      ],
+      [
+        "renal",
+        0.02488040242243749
+      ],
+      [
+        "blood",
+        0.02280488065682591
+      ],
+      [
+        "disease",
+        0.021546575333251317
+      ],
+      [
+        "acute",
+        0.01965582219425343
+      ],
+      [
+        "surgery",
+        0.0165236269204965
+      ],
+      [
+        "pulmonary",
+        0.016352823411603472
+      ],
+      [
+        "clinical",
+        0.016344895069167052
+      ],
+      [
+        "pressure",
+        0.016218816334760994
+      ],
+      [
+        "lung",
+        0.01565895742663512
+      ],
+      [
+        "gas",
+        0.01565587873886684
+      ],
+      [
+        "patient",
+        0.015066468939097914
+      ],
+      [
+        "cardiac",
+        0.01446125626640792
+      ]
+    ],
+    "representative_studies": [
+      {
+        "nct_id": "NCT02053675",
+        "title": "Hemodynamic Effects of Vasopressin in Early Septic Shock Stage",
+        "year": 2014,
+        "lead_sponsor": "Federal University of S\u00e3o Paulo",
+        "study_type": "INTERVENTIONAL"
+      },
+      {
+        "nct_id": "NCT04871893",
+        "title": "Safety and Efficacy Evaluation of CO2 Removal in Combination With Continuous Veno-Venous Hemodialysis/Hemodiafiltration Therapy",
+        "year": 2021,
+        "lead_sponsor": "Fresenius Medical Care Deutschland GmbH",
+        "study_type": "INTERVENTIONAL"
+      },
+      {
+        "nct_id": "NCT00729794",
+        "title": "Vasopressin, Epinephrine, and Steroids for Cardiac Arrest",
+        "year": 2008,
+        "lead_sponsor": "University of Athens",
+        "study_type": "INTERVENTIONAL"
+      }
+    ],
+    "temporal_profile": {
+      "mean_year": 2020.1,
+      "min_year": 2005,
+      "max_year": 2026
+    },
+    "funding_profile": {
+      "nih_funding_pct": 0.9,
+      "industry_funding_pct": 16.4
+    },
+    "formal_capture_pct": 31.6
+  },
+  "2": {
+    "cluster_id": 2,
+    "cluster_label": "Urinary & Incontinence & Urinary Incontinence",
+    "study_count": 566,
+    "proportion_pct": 21.5,
+    "top_keywords": [
+      "urinary",
+      "incontinence",
+      "urinary incontinence",
+      "pelvic",
+      "floor"
+    ],
+    "top_c_tf_idf_terms": [
+      [
+        "urinary",
+        0.058859392935183635
+      ],
+      [
+        "incontinence",
+        0.0588516877715463
+      ],
+      [
+        "urinary incontinence",
+        0.04757871393531968
+      ],
+      [
+        "pelvic",
+        0.047272711799331325
+      ],
+      [
+        "floor",
+        0.03933035415278666
+      ],
+      [
+        "pelvic floor",
+        0.03926196687538495
+      ],
+      [
+        "women",
+        0.02844953134595928
+      ],
+      [
+        "study",
+        0.027836965664309786
+      ],
+      [
+        "bladder",
+        0.02712038910447215
+      ],
+      [
+        "stress",
+        0.02423847769336049
+      ],
+      [
+        "muscle",
+        0.023764264699820875
+      ],
+      [
+        "treatment",
+        0.02221423930993769
+      ],
+      [
+        "patients",
+        0.020342849838559638
+      ],
+      [
+        "pain",
+        0.01925353515293775
+      ],
+      [
+        "stress urinary",
+        0.018999488763785658
+      ]
+    ],
+    "representative_studies": [
+      {
+        "nct_id": "NCT06606613",
+        "title": "Cross-linked Hyaluronic Acid/dextranomer for the Treatment of Stress Urinary Incontinence",
+        "year": 2024,
+        "lead_sponsor": "Izmir Bakircay University",
+        "study_type": "INTERVENTIONAL"
+      },
+      {
+        "nct_id": "NCT05354869",
+        "title": "Transvaginal Electrical Stimulation for Myofascial Pelvic Pain",
+        "year": 2022,
+        "lead_sponsor": "University of California, Los Angeles",
+        "study_type": "INTERVENTIONAL"
+      },
+      {
+        "nct_id": "NCT03900143",
+        "title": "Safety, Efficacy and Usage Compliance of the Silk'n Tightra Device",
+        "year": 2019,
+        "lead_sponsor": "Home Skinovations Ltd.",
+        "study_type": "INTERVENTIONAL"
+      }
+    ],
+    "temporal_profile": {
+      "mean_year": 2021.9,
+      "min_year": 2009,
+      "max_year": 2026
+    },
+    "funding_profile": {
+      "nih_funding_pct": 0.0,
+      "industry_funding_pct": 11.7
+    },
+    "formal_capture_pct": 92.9
+  },
+  "3": {
+    "cluster_id": 3,
+    "cluster_label": "Gender & Transgender & Study",
+    "study_count": 290,
+    "proportion_pct": 11.02,
+    "top_keywords": [
+      "gender",
+      "transgender",
+      "study",
+      "hormone",
+      "patients"
+    ],
+    "top_c_tf_idf_terms": [
+      [
+        "gender",
+        0.044992018654490325
+      ],
+      [
+        "transgender",
+        0.03268310996776588
+      ],
+      [
+        "study",
+        0.029532566331947525
+      ],
+      [
+        "hormone",
+        0.028774029645385585
+      ],
+      [
+        "patients",
+        0.02513851401384123
+      ],
+      [
+        "testosterone",
+        0.022529246177958744
+      ],
+      [
+        "therapy",
+        0.021379655883611442
+      ],
+      [
+        "treatment",
+        0.019858272684026256
+      ],
+      [
+        "sex",
+        0.019785211573656647
+      ],
+      [
+        "women",
+        0.019167300442493842
+      ],
+      [
+        "female",
+        0.016517064085335435
+      ],
+      [
+        "dysphoria",
+        0.016457149457264033
+      ],
+      [
+        "male",
+        0.016222368584605306
+      ],
+      [
+        "gender dysphoria",
+        0.015773411084694634
+      ],
+      [
+        "affirming",
+        0.01573775863029035
+      ]
+    ],
+    "representative_studies": [
+      {
+        "nct_id": "NCT00196001",
+        "title": "Adrenocorticotropic Hormone (ACTH) Stimulation and G Protein",
+        "year": 2005,
+        "lead_sponsor": "Children's Mercy Hospital Kansas City",
+        "study_type": "OBSERVATIONAL"
+      },
+      {
+        "nct_id": "NCT05184374",
+        "title": "Efficacy of Prolonged GnRH Test in Male Adolescents With Postoperative HH",
+        "year": 2022,
+        "lead_sponsor": "Huashan Hospital",
+        "study_type": "INTERVENTIONAL"
+      },
+      {
+        "nct_id": "NCT02871986",
+        "title": "Pubertal Induction in Individuals With Hypogonadism",
+        "year": 2016,
+        "lead_sponsor": "University College, London",
+        "study_type": "OBSERVATIONAL"
+      }
+    ],
+    "temporal_profile": {
+      "mean_year": 2020.8,
+      "min_year": 2002,
+      "max_year": 2026
+    },
+    "funding_profile": {
+      "nih_funding_pct": 2.4,
+      "industry_funding_pct": 5.9
+    },
+    "formal_capture_pct": 79.7
+  },
+  "4": {
+    "cluster_id": 4,
+    "cluster_label": "Cancer & Prostate & Study",
+    "study_count": 251,
+    "proportion_pct": 9.54,
+    "top_keywords": [
+      "cancer",
+      "prostate",
+      "study",
+      "patients",
+      "urinary"
+    ],
+    "top_c_tf_idf_terms": [
+      [
+        "cancer",
+        0.05330407598111404
+      ],
+      [
+        "prostate",
+        0.042685674751106434
+      ],
+      [
+        "study",
+        0.03523561726325404
+      ],
+      [
+        "patients",
+        0.03398153967209425
+      ],
+      [
+        "urinary",
+        0.02745343735101812
+      ],
+      [
+        "tract",
+        0.02495857055447569
+      ],
+      [
+        "urinary tract",
+        0.02489061585569577
+      ],
+      [
+        "treatment",
+        0.024765621117983472
+      ],
+      [
+        "bladder",
+        0.023663714800457685
+      ],
+      [
+        "prostate cancer",
+        0.021351605156725944
+      ],
+      [
+        "breast",
+        0.01902325878735609
+      ],
+      [
+        "neoplasms",
+        0.017659574369657018
+      ],
+      [
+        "prostatic",
+        0.017544525757726616
+      ],
+      [
+        "clinical",
+        0.017527582583445063
+      ],
+      [
+        "tumor",
+        0.016516657343980855
+      ]
+    ],
+    "representative_studies": [
+      {
+        "nct_id": "NCT07225114",
+        "title": "Translation of Acoustic Angiography: Contrast Enhanced Super Resolution (CESR) Imaging",
+        "year": 2025,
+        "lead_sponsor": "UNC Lineberger Comprehensive Cancer Center",
+        "study_type": "INTERVENTIONAL"
+      },
+      {
+        "nct_id": "NCT03196635",
+        "title": "Patient-Assisted Compression - Impact on Image Quality and Workflow",
+        "year": 2017,
+        "lead_sponsor": "GE Healthcare",
+        "study_type": "INTERVENTIONAL"
+      },
+      {
+        "nct_id": "NCT04983875",
+        "title": "Mammography and Breast Arterial Calcification: An Information-Sharing Trial",
+        "year": 2021,
+        "lead_sponsor": "Icahn School of Medicine at Mount Sinai",
+        "study_type": "INTERVENTIONAL"
+      }
+    ],
+    "temporal_profile": {
+      "mean_year": 2021.4,
+      "min_year": 2005,
+      "max_year": 2026
+    },
+    "funding_profile": {
+      "nih_funding_pct": 2.4,
+      "industry_funding_pct": 26.7
+    },
+    "formal_capture_pct": 79.7
+  },
+  "5": {
+    "cluster_id": 5,
+    "cluster_label": "Study & Participants & Exercise",
+    "study_count": 314,
+    "proportion_pct": 11.93,
+    "top_keywords": [
+      "study",
+      "participants",
+      "exercise",
+      "body",
+      "blood"
+    ],
+    "top_c_tf_idf_terms": [
+      [
+        "study",
+        0.032275073623319064
+      ],
+      [
+        "participants",
+        0.021151406934732442
+      ],
+      [
+        "exercise",
+        0.02044191133743333
+      ],
+      [
+        "body",
+        0.019498836848032327
+      ],
+      [
+        "blood",
+        0.018334212509061334
+      ],
+      [
+        "women",
+        0.01684214718053675
+      ],
+      [
+        "pcos",
+        0.016260143067013
+      ],
+      [
+        "using",
+        0.014030904911186104
+      ],
+      [
+        "test",
+        0.013129294958858272
+      ],
+      [
+        "health",
+        0.013112810781812373
+      ],
+      [
+        "data",
+        0.012975863663166264
+      ],
+      [
+        "healthy",
+        0.012878783179263704
+      ],
+      [
+        "diabetes",
+        0.012662137686305476
+      ],
+      [
+        "group",
+        0.012626669328010907
+      ],
+      [
+        "patients",
+        0.012568109221136603
+      ]
+    ],
+    "representative_studies": [
+      {
+        "nct_id": "NCT06893913",
+        "title": "Effect of Addition of Pyramidal Exercise to Intermittent Fasting on Dryness of Eye in Pre-diabetic Psoriasis Patients",
+        "year": 2025,
+        "lead_sponsor": "Cairo University",
+        "study_type": "INTERVENTIONAL"
+      },
+      {
+        "nct_id": "NCT04734834",
+        "title": "Efficacy Of \"Prodovite\u00ae\" In Athletic Performance",
+        "year": 2021,
+        "lead_sponsor": "Victory Nutrition International, Inc.",
+        "study_type": "INTERVENTIONAL"
+      },
+      {
+        "nct_id": "NCT06432517",
+        "title": "Sources and Mechanisms of Energy Compensation",
+        "year": 2024,
+        "lead_sponsor": "Shenzhen Institutes of Advanced Technology ,Chinese Academy of Sciences",
+        "study_type": "INTERVENTIONAL"
+      }
+    ],
+    "temporal_profile": {
+      "mean_year": 2021.5,
+      "min_year": 2006,
+      "max_year": 2026
+    },
+    "funding_profile": {
+      "nih_funding_pct": 1.0,
+      "industry_funding_pct": 22.3
+    },
+    "formal_capture_pct": 74.5
+  },
+  "6": {
+    "cluster_id": 6,
+    "cluster_label": "Pain & Surgery & Study",
+    "study_count": 218,
+    "proportion_pct": 8.28,
+    "top_keywords": [
+      "pain",
+      "surgery",
+      "study",
+      "patients",
+      "hypospadias"
+    ],
+    "top_c_tf_idf_terms": [
+      [
+        "pain",
+        0.04700009545561208
+      ],
+      [
+        "surgery",
+        0.031156689668050856
+      ],
+      [
+        "study",
+        0.029822099977027644
+      ],
+      [
+        "patients",
+        0.02766145023154228
+      ],
+      [
+        "hypospadias",
+        0.020470226990398143
+      ],
+      [
+        "postoperative",
+        0.020097372686829762
+      ],
+      [
+        "block",
+        0.01853997976881498
+      ],
+      [
+        "surgical",
+        0.01839967237084229
+      ],
+      [
+        "patient",
+        0.017922169561020943
+      ],
+      [
+        "using",
+        0.015296062809053919
+      ],
+      [
+        "group",
+        0.015280421679391292
+      ],
+      [
+        "vaginal",
+        0.015163156788085967
+      ],
+      [
+        "gender",
+        0.01449385614398301
+      ],
+      [
+        "post",
+        0.013662005823303349
+      ],
+      [
+        "women",
+        0.01359274257747949
+      ]
+    ],
+    "representative_studies": [
+      {
+        "nct_id": "NCT07035275",
+        "title": "Effect of Patient-Anesthesiologist Gender Concordance and Analgesia Method on Postoperative Pain in Mastectomy Patients",
+        "year": 2025,
+        "lead_sponsor": "Dr Abdurrahman Yurtaslan Ankara Oncology Training and Research Hospital",
+        "study_type": "OBSERVATIONAL"
+      },
+      {
+        "nct_id": "NCT06094257",
+        "title": "Prospective Study of Sensation and Satisfaction in Cancer and Transgender Mastectomy Patients",
+        "year": 2023,
+        "lead_sponsor": "Weill Medical College of Cornell University",
+        "study_type": "OBSERVATIONAL"
+      },
+      {
+        "nct_id": "NCT05744570",
+        "title": "Gender of Anesthesiologist and Time to Labor Epidural",
+        "year": 2023,
+        "lead_sponsor": "Ume\u00e5 University",
+        "study_type": "OBSERVATIONAL"
+      }
+    ],
+    "temporal_profile": {
+      "mean_year": 2021.4,
+      "min_year": 2008,
+      "max_year": 2026
+    },
+    "funding_profile": {
+      "nih_funding_pct": 0.9,
+      "industry_funding_pct": 8.3
+    },
+    "formal_capture_pct": 81.7
+  },
+  "7": {
+    "cluster_id": 7,
+    "cluster_label": "Health & Intervention & Study",
+    "study_count": 276,
+    "proportion_pct": 10.49,
+    "top_keywords": [
+      "health",
+      "intervention",
+      "study",
+      "sexual",
+      "women"
+    ],
+    "top_c_tf_idf_terms": [
+      [
+        "health",
+        0.039375503968095894
+      ],
+      [
+        "intervention",
+        0.03788830435244658
+      ],
+      [
+        "study",
+        0.02328706082989495
+      ],
+      [
+        "sexual",
+        0.02124651412620948
+      ],
+      [
+        "women",
+        0.02114041973988218
+      ],
+      [
+        "gender",
+        0.021063407757785767
+      ],
+      [
+        "participants",
+        0.020375607542984623
+      ],
+      [
+        "care",
+        0.020302479610086098
+      ],
+      [
+        "mental",
+        0.019906762187603438
+      ],
+      [
+        "mental health",
+        0.017460509032780947
+      ],
+      [
+        "program",
+        0.0174415292452945
+      ],
+      [
+        "use",
+        0.01711001698300479
+      ],
+      [
+        "based",
+        0.016450145997911024
+      ],
+      [
+        "violence",
+        0.016262165929400933
+      ],
+      [
+        "group",
+        0.015405426123838767
+      ]
+    ],
+    "representative_studies": [
+      {
+        "nct_id": "NCT03534167",
+        "title": "TODAY! A Mobile App Study",
+        "year": 2018,
+        "lead_sponsor": "Ann & Robert H Lurie Children's Hospital of Chicago",
+        "study_type": "INTERVENTIONAL"
+      },
+      {
+        "nct_id": "NCT02072252",
+        "title": "Mobile Phone App for Depression and Anxiety in Young Men Who Are Attracted to Men",
+        "year": 2014,
+        "lead_sponsor": "Northwestern University",
+        "study_type": "INTERVENTIONAL"
+      },
+      {
+        "nct_id": "NCT03938324",
+        "title": "Peer i-Coaching for Activated Self-Management Optimization in Adolescents and Young Adults With Chronic Conditions",
+        "year": 2019,
+        "lead_sponsor": "Duke University",
+        "study_type": "INTERVENTIONAL"
+      }
+    ],
+    "temporal_profile": {
+      "mean_year": 2021.9,
+      "min_year": 2005,
+      "max_year": 2026
+    },
+    "funding_profile": {
+      "nih_funding_pct": 2.2,
+      "industry_funding_pct": 4.7
+    },
+    "formal_capture_pct": 69.9
+  }
+}

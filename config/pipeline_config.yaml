@@ -1,0 +1,42 @@
+# Pipeline Configuration Settings
+
+api:
+  base_url: "https://clinicaltrials.gov/api/v2/studies"
+  page_size: 100
+  max_retries: 5
+  backoff_factor: 1.5
+  request_timeout: 30
+  rate_limit_delay_sec: 0.25
+  user_agent: "ClinicalTrialsTransRepresentationResearch/1.0 (Academic Research; contact: trans-representation-study@research.local)"
+
+paths:
+  data_raw_api: "data/raw/api_responses"
+  data_raw_baseline: "data/raw/baseline_counts.json"
+  data_processed_db: "data/processed/clinical_trials_tgd.duckdb"
+  data_processed_parquet: "data/processed/tgd_studies.parquet"
+  data_eligibility_parquet: "data/processed/eligibility_rules.parquet"
+  data_lexicon_matches_parquet: "data/processed/lexicon_matches.parquet"
+  data_unsupervised_clusters_parquet: "data/processed/unsupervised_clusters.parquet"
+  validation_sample_csv: "data/manual_validation/sampled_validation_cohort.csv"
+  output_figures: "reports/figures"
+  output_tables: "reports/tables"
+
+clustering:
+  model_type: "hybrid"  # "tfidf_kmeans", "tfidf_hdbscan", "embeddings_hdbscan", "embeddings_kmeans"
+  embedding_model: "all-MiniLM-L6-v2"
+  n_clusters: 8
+  min_cluster_size: 15
+  random_state: 42
+  text_fields_to_include:
+    - "brief_title"
+    - "official_title"
+    - "brief_summary"
+    - "detailed_description"
+    - "conditions_text"
+    - "interventions_text"
+    - "inclusion_criteria"
+
+analysis:
+  start_year: 1999
+  end_year: 2026
+  bootstrap_iterations: 1000

@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large Raw API Dumps & Caches (exceeds GitHub 100MB limit; regenerated via run_pipeline.py --mode ingest)
+data/raw/
+*.parquet.tmp
+*.tmp
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

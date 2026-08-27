@@ -1,0 +1,23 @@
+{
+  "total_tgd_trials": 2632,
+  "temporal_span": "2002 - 2026",
+  "formal_capture_count": 1935,
+  "formal_capture_pct": 73.52,
+  "informal_only_count": 692,
+  "informal_only_pct": 26.29,
+  "dual_capture_count": 404,
+  "dual_capture_pct": 15.35,
+  "nih_funded_count": 39,
+  "nih_funded_pct": 1.48,
+  "industry_funded_count": 360,
+  "industry_funded_pct": 13.68,
+  "results_posted_count": 300,
+  "results_posted_pct": 11.4,
+  "interventional_count": 1892,
+  "interventional_pct": 71.88,
+  "observational_count": 740,
+  "observational_pct": 28.12,
+  "total_nih_grant_funding_millions": 260.95,
+  "unique_publications_count": 69054,
+  "publication_rate_pct": 636.36
+}

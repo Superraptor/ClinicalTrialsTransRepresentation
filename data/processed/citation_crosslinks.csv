@@ -1,0 +1,3 @@
+citing_pmid,cited_pmid,citing_ncts,cited_ncts,citing_journal,cited_journal,citing_year,cited_year,edge_type
+1002,1001,['NCT002'],['NCT001'],J2,J1,2021,2020,DIRECT_CITATION
+1003,1002,['NCT003'],['NCT002'],J3,J2,2022,2021,DIRECT_CITATION
